@@ -47,6 +47,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="th" className={noto.className}>
       <body>
+        <head>
+          {/* Favicon */}
+        <link rel="icon" href="/favicon.ico" />
+        </head>
         {/* Navbar Header */}
         <Navbar />
 
