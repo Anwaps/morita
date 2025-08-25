@@ -23,7 +23,7 @@ export const metadata = {
   openGraph: {
     title: "ห้างหุ้นส่วนจำกัด อุเอะฮาระเทรดดิ้ง | ระบบดับเพลิง Morita",
     description: "จำหน่ายระบบดับเพลิงและอุปกรณ์ดับเพลิงอัตโนมัติ แบรนด์ Morita ครบวงจร ทั้งติดตั้ง บำรุงรักษา และจำหน่ายอุปกรณ์คุณภาพมาตรฐานสากล",
-    url: "https://morita-miyata.vercel.app", // ใส่โดเมนจริงเมื่อพร้อม
+    url: "https://morita-miyata.vercel.app/", // ใส่โดเมนจริงเมื่อพร้อม
     siteName: "ระบบดับเพลิง Morita Uehara Trading",
     images: [
       {

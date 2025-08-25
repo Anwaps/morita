@@ -40,7 +40,7 @@ export default function Contact() {
         "@context": "https://sechema.org",
         "@type": "Organization",
         "name": "ห้างหุ้นส่วนจํากัด อุเอะฮาระเทรดดิ้ง",
-        "url": "https://morita-miyata.vercel.app",
+        "url": "https://morita-miyata.vercel.app/",
         "logo": "https://morita-miyata.vercel.app/morita-group.webp",
         "contactPoint": {
             "@type": "ContactPoint",
