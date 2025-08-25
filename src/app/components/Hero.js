@@ -5,13 +5,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import {Navigation } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 
 const Hero = memo(() => {
   const slides = [
-      { type: "video", src: "/fire-video2.mp4", alt: "Video Demo Fire Extinguisher2" },
-      { type: "video", src: "/fire-video1.mp4", alt: "Video Demo Fire Extinguisher1" },
-      { type: "image", src: "/P-1.webp", alt: "Automatic Fire Extinguisher 1" },
+    { type: "video", src: "/video1.mp4", alt: "Video Demo Fire Extinguisher1" },
+    { type: "video", src: "/video2.mp4", alt: "Video Demo Fire Extinguisher2" },
+    { type: "video", src: "/video3.mp4", alt: "Video Demo Fire Extinguisher2" },
   ];
 
   return (
@@ -30,40 +30,40 @@ const Hero = memo(() => {
               navigation
               modules={[Navigation]}
               className="w-full max-h-96 rounded-lg shadow-lg"
-               onSlideChange={(swiper) => {
+              onSlideChange={(swiper) => {
                 swiper.slides.forEach((slide, idx) => {
-                const video = slide.querySelector("video");
-                if (video) {
+                  const video = slide.querySelector("video");
+                  if (video) {
                     if (idx === swiper.activeIndex) video.play();
                     else video.pause();
-                }
+                  }
                 });
-            }}
+              }}
             >
               {slides.map((slide, idx) => (
                 <SwiperSlide key={idx} className="flex justify-center">
                   {slide.type === "image" ? (
                     <div className="w-full h-96 relative rounded-lg shadow-lg overflow-hidden">
-                        <Image
+                      <Image
                         src={slide.src}
                         alt={slide.alt}
                         fill
                         className="object-cover"
                         priority={idx === 0} // โหลดทันทีสำหรับ slide แรก
-                        />
+                      />
                     </div>
-                    ) : (
+                  ) : (
                     <video
-                        src={slide.src}
-                        controls
-                        className="w-full h-96 object-cover rounded-lg shadow-lg"
-                        preload="none"
-                        muted
-                        playsInline
-                        autoPlay
-                        loop
+                      src={slide.src}
+                      controls
+                      className="w-full h-96 object-cover rounded-lg shadow-lg"
+                      preload="none"
+                      muted
+                      playsInline
+                      autoPlay
+                      loop
                     />
-                    )}
+                  )}
                 </SwiperSlide>
               ))}
             </Swiper>
@@ -94,17 +94,43 @@ const Hero = memo(() => {
               <span className="block sm:inline">
                 ปลอดภัยสูงสุด สำหรับบ้านและอาคาร
               </span>
-              <br />
-              โดยเเบรนด์
-              <div className="bg-white inline-block px-2 py-0.5 rounded-md mx-auto ml-3">
+            </h1>
+            {/* Logo 3 Brand */}
+            <div className="flex items-center gap-4 justify-start mb-6  sm:mr-0">
+              {/* Morita */}
+              <div className="bg-white px-4 py-2 rounded-md flex items-center justify-center w-40 h-14">
                 <Image
                   src="/morita-brand.webp"
                   alt="Morita Brand"
                   width={160}
                   height={40}
+                  className="object-contain max-h-full max-w-full"
                 />
               </div>
-            </h1>
+
+              {/* Miyata */}
+              <div className="bg-white px-4 py-2 rounded-md flex items-center justify-center w-40 h-14">
+                <Image
+                  src="/miyata.webp"
+                  alt="Miyata Brand"
+                  width={160}
+                  height={40}
+                  className="object-contain max-h-full max-w-full"
+                />
+              </div>
+
+              {/* Statx */}
+              <div className="bg-white px-4 py-2 rounded-md flex items-center justify-center w-40 h-14">
+                <Image
+                  src="/Statx.webp"
+                  alt="Statx Brand"
+                  width={160}
+                  height={40}
+                  className="object-contain max-h-full max-w-full"
+                />
+              </div>
+            </div>
+
             <p className="text-lg sm:text-xl mb-6">
               ป้องกันอัคคีภัยอย่างชาญฉลาด ด้วยเทคโนโลยีอัตโนมัติ
             </p>

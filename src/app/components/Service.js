@@ -23,9 +23,9 @@ export default function Service() {
         image: "/Service-2.webp"
         },
         {
-        title: "ระบบดับเพลิงอัตโนมัติ แบรนด์ Nichibou",
-        desc: "จำหน่ายระบบดับเพลิงอัตโนมัติ แบรนด์ Nichibou (Japanese Erase Tube)",
-        image: "/Service-4.webp"
+        title: "ระบบดับเพลิงอัตโนมัติ แบรนด์ Statx",
+        desc: "จำหน่ายระบบดับเพลิงแบบละอองลอย แบรนด์ Statx (Aerosol Fire suppression system)",
+        image: "/Service-6.webp"
         },
     ]
     {/* บริการ */}
@@ -73,6 +73,41 @@ export default function Service() {
             {/* ส่วนบนสินค้า */}
             <div className="max-w-7xl mx-auto mb-16 px-6">
                 <h2 className="text-2xl font-bold mb-6 text-center">สินค้าที่เราจำหน่าย</h2>
+                {/* Logo 3 Brand */}
+                            <div className="flex items-center gap-8 justify-center mb-8 sm:mr-0">
+                              {/* Morita */}
+                              <div className="bg-white px-4 py-2 rounded-md flex items-center justify-center w-50 h-14">
+                                <Image
+                                  src="/morita-brand.webp"
+                                  alt="Morita Brand"
+                                  width={160}
+                                  height={40}
+                                  className="object-contain max-h-full max-w-full"
+                                />
+                              </div>
+                
+                              {/* Miyata */}
+                              <div className="bg-white px-4 py-2 rounded-md flex items-center justify-center w-50 h-14">
+                                <Image
+                                  src="/miyata.webp"
+                                  alt="Miyata Brand"
+                                  width={160}
+                                  height={40}
+                                  className="object-contain max-h-full max-w-full"
+                                />
+                              </div>
+                
+                              {/* Statx */}
+                              <div className="bg-white px-4 py-2 rounded-md flex items-center justify-center w-50 h-14">
+                                <Image
+                                  src="/Statx.webp"
+                                  alt="Statx Brand"
+                                  width={160}
+                                  height={40}
+                                  className="object-contain max-h-full max-w-full"
+                                />
+                              </div>
+                            </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                     {prodcuts.map((product, index) => (
                         <div
