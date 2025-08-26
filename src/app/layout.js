@@ -30,7 +30,7 @@ export const metadata = {
       {
         url: "https://morita-miyata.vercel.app/group-brand.webp?v=3", // รูปโลโก้หรือภาพ Hero
         width: 1200,
-        height: 700,
+        height: 630,
       },
     ],
     locale: "th_TH",
