@@ -20,7 +20,7 @@ export default function About() {
                             ประเทศญี่ปุ่น ประมาณกลางปี ค.ศ. 2021 ได้เริ่มนำเข้าชุดดับเพลิงอัตโนมัติ แบรนด์{" "}
                             <span className="font-semibold">Morita UG</span> (Automatic Fire Extinguisher System)
                             ให้กับบริษัททำขาย ติดตั้งและบำรุงรักษาชุดดับเพลิงอัตโนมัติ ให้กับกลุ่มบริษัทยุตสาหกรรมญี่ปุ่นในประเทศไทย
-                            และปัจจุบันบ.หุ้นส่วนจำกัด สยามอูเอะฮาระเทรดดิ้ง (Siam Uehara Trading Partnership Ltd.)
+                            และปัจจุบันหุ้นส่วนจำกัด สยามอูเอะฮาระเทรดดิ้ง (Siam Uehara Trading Partnership Ltd.)
                             ได้รับแต่งตั้งจากบริษัท{" "}
                             <span className="font-semibold">Morita Miyata Corporation</span>
                             ประเทศญี่ปุ่นให้เป็น Authorized Distributors ประจำประเทศไทย
