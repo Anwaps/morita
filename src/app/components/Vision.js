@@ -10,11 +10,6 @@ export default function Vision() {
       desc: "นำเข้าผลิตภัณฑ์มาตรฐานจากผู้ผลิต โรงงาน จากประเทศญี่ปุ่น ด้วยหลักธรรมาภิบาล",
     },
     {
-      image: "/delivery.webp",
-      title: "จัดส่งสินค้าให้ลูกค้าตรงเวลา",
-      desc: "จัดส่งสินค้าตรงเวลา เร็ว ปลอดภัยถึงมือลูกค้าภายในวันที่กำหนด",
-    },
-    {
       image: "/good-price.webp",
       title: "ราคายุติธรรม",
       desc: "ราคายุติธรรมและคำนึงถึงประโยชน์ของคู่ค้าเป็นสำคัญ",
@@ -40,7 +35,7 @@ export default function Vision() {
       </div>
 
       {/* Vision Cards */}
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 md:max-w-5xl gap-8 ">
         {visionCard.map((card, index) => (
           <div
             key={index}

@@ -36,8 +36,8 @@ export default function Service() {
             image: "/Service-5.webp"
         },
         {
-            title: "บริการซ่อมบำรุงชุดดับเพลิงอัตโนมัติ",
-            desc: "บริการซ่อมบำรุงชุดดับเพลิงอัตโนมัติ โดย ทีมช่างคุณภาพ",
+            title: "บริการPM & Hydro Test Services",
+            desc: "บริการทำ Preventive maintenance และ Hydrostatic Test",
             image: "/p-8.webp"
         },
     ]
