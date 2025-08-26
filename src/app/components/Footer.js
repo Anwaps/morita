@@ -3,7 +3,7 @@ import React, { memo } from "react";
 import Image from "next/image";
 import { Facebook } from 'lucide-react';
 import { FaLine } from "react-icons/fa6";
-import { siteConfig } from '../config/setConfig';
+
 
 const Footer = memo(() => {
   return (
@@ -83,7 +83,7 @@ const Footer = memo(() => {
 
       {/* Copyright */}
       <div className='border-t border-white/20 mt-8 pt-4 text-center text-sm'>
-        © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
+        © {new Date().getFullYear()}All rights reserved.
       </div>
     </footer>
   )
