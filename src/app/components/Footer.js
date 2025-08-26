@@ -1,7 +1,7 @@
 "use client";
 import React, { memo } from "react";
 import Image from "next/image";
-import { Facebook, Instagram } from 'lucide-react';
+import { Facebook } from 'lucide-react';
 import { FaLine } from "react-icons/fa6";
 import { siteConfig } from '../config/setConfig';
 
@@ -70,13 +70,10 @@ const Footer = memo(() => {
             หรือ siamuehara@gmail.com
           </p>
           <div className="flex justify-center sm:justify-start gap-3 mt-4">
-            <a href="#" target='_blank' rel="noopener noreferrer" className='w-10 h-10 flex items-center justify-center rounded-full text-black hover:text-white bg-white hover:bg-black transition'>
+            <a href="https://www.facebook.com/share/1Fm9rEEWyX/?mibextid=wwXIfr" target='_blank' rel="noopener noreferrer" className='w-10 h-10 flex items-center justify-center rounded-full text-black hover:text-white bg-white hover:bg-black transition'>
               <Facebook className='w-7 h-7' />
             </a>
-            <a href="#" target='_blank' rel="noopener noreferrer" className='w-10 h-10 flex items-center justify-center rounded-full text-black hover:text-white bg-white hover:bg-black transition'>
-              <Instagram className='w-7 h-7' />
-            </a>
-            <a href="https://line.me/R/ti/p/~0819116293" target='_blank' rel="noopener noreferrer" className='w-10 h-10 flex items-center justify-center rounded-full text-black hover:text-white bg-white hover:bg-black transition'>
+            <a href="https://line.me/R/ti/p/~titiratu" target='_blank' rel="noopener noreferrer" className='w-10 h-10 flex items-center justify-center rounded-full text-black hover:text-white bg-white hover:bg-black transition'>
               <FaLine className='w-7 h-7' />
             </a>
           </div>

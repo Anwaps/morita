@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Script from "next/script";
-import { Facebook, Instagram } from 'lucide-react';
+import { Facebook } from 'lucide-react';
 import { FaLine } from "react-icons/fa6";
 
 export default function Contact() {
@@ -69,7 +69,7 @@ export default function Contact() {
                     ส่งข้อความหาทีมงานของเรา คุณสามารถสอบถามข้อมูลสินค้า บริการ หรือแจ้งปัญหาได้ที่นี่
                 </p>
             </div>
-
+            {/* Form Contact */}
             <form onSubmit={handleSubmit} className="max-w-3xl mx-auto bg-white rounded-2xl p-8 text-black shadow-lg space-y-4">
                 <label htmlFor="name" className="sr-only">ชื่อ - สกุล</label>
                 <input
@@ -137,20 +137,23 @@ export default function Contact() {
                 </button>
                 {status && <p className="text-center mt-2 text-sm">{status}</p>}
                 <h2 className="text-lg font-bold text-center mt-2">หรือช่องทางอื่น</h2>
+                {/* Other Social Media */}
                 <div className="flex justify-center items-center gap-3 mt-4">
-                    <a href="#" target='_blank' rel="noopener noreferrer" 
+                    <a href="https://www.facebook.com/share/1Fm9rEEWyX/?mibextid=wwXIfr" target='_blank' rel="noopener noreferrer" 
                         className='w-10 h-10 flex items-center justify-center rounded-full text-black hover:text-white bg-white hover:bg-black transition'>
                         <Facebook className='w-7 h-7' />
                     </a>
-                    <a href="#" target='_blank' rel="noopener noreferrer" 
-                        className='w-10 h-10 flex items-center justify-center rounded-full text-black hover:text-white bg-white hover:bg-black transition'>
-                        <Instagram className='w-7 h-7' />
-                    </a>
-                    <a href="https://line.me/R/ti/p/~0819116293" target='_blank' rel="noopener noreferrer" 
+                    <a href="https://line.me/R/ti/p/~titiratu" target='_blank' rel="noopener noreferrer" 
                         className='w-10 h-10 flex items-center justify-center rounded-full text-black hover:text-white bg-white hover:bg-black transition'>
                         <FaLine className='w-7 h-7' />
                     </a>
                 </div>
+                <p className="text-md text-gray-500 mt-2 text-center">
+                ข้อมูลที่คุณกรอกจะถูกใช้เพื่อการติดต่อกลับเท่านั้น
+                และจะไม่ถูกเผยแพร่ต่อบุคคลที่สาม
+                ใช้เพื่อการตอบกลับคำถาม/ข้อเสนอแนะ
+                จะเก็บรักษาข้อมูลไว้อย่างปลอดภัย
+                </p>
             </form>
 
             {/* Google Maps */}
