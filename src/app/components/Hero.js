@@ -92,7 +92,7 @@ const Hero = memo(() => {
             <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight">
               ระบบดับเพลิงอัตโนมัติ<br />
               <span className="block sm:inline">
-                ปลอดภัยสูงสุด สำหรับบ้านและอาคาร
+                ปลอดภัยสูงสุด สำหรับ อุตสาหกรรม บ้าน เเละ อาคาร
               </span>
             </h1>
             {/* Logo 3 Brand */}

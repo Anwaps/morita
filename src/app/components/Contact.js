@@ -1,6 +1,8 @@
 "use client";
 import { useState } from "react";
 import Script from "next/script";
+import { Facebook, Instagram } from 'lucide-react';
+import { FaLine } from "react-icons/fa6";
 
 export default function Contact() {
     const [form, setForm] = useState({
@@ -35,13 +37,15 @@ export default function Contact() {
         }
     }
 
+    
+
     // Json-LD schema
     const jsonLd = {
         "@context": "https://sechema.org",
         "@type": "Organization",
         "name": "ห้างหุ้นส่วนจํากัด อุเอะฮาระเทรดดิ้ง",
         "url": "https://morita-miyata.vercel.app/",
-        "logo": "https://morita-miyata.vercel.app/morita-group.webp",
+        "logo": "https://morita-miyata.vercel.app/group-brand.webp",
         "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+66 081-911-6293",
@@ -132,6 +136,21 @@ export default function Contact() {
                     ส่งข้อความ
                 </button>
                 {status && <p className="text-center mt-2 text-sm">{status}</p>}
+                <h2 className="text-lg font-bold text-center mt-2">หรือช่องทางอื่น</h2>
+                <div className="flex justify-center items-center gap-3 mt-4">
+                    <a href="#" target='_blank' rel="noopener noreferrer" 
+                        className='w-10 h-10 flex items-center justify-center rounded-full text-black hover:text-white bg-white hover:bg-black transition'>
+                        <Facebook className='w-7 h-7' />
+                    </a>
+                    <a href="#" target='_blank' rel="noopener noreferrer" 
+                        className='w-10 h-10 flex items-center justify-center rounded-full text-black hover:text-white bg-white hover:bg-black transition'>
+                        <Instagram className='w-7 h-7' />
+                    </a>
+                    <a href="https://line.me/R/ti/p/~0819116293" target='_blank' rel="noopener noreferrer" 
+                        className='w-10 h-10 flex items-center justify-center rounded-full text-black hover:text-white bg-white hover:bg-black transition'>
+                        <FaLine className='w-7 h-7' />
+                    </a>
+                </div>
             </form>
 
             {/* Google Maps */}

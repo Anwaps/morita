@@ -76,7 +76,7 @@ const Footer = memo(() => {
             <a href="#" target='_blank' rel="noopener noreferrer" className='w-10 h-10 flex items-center justify-center rounded-full text-black hover:text-white bg-white hover:bg-black transition'>
               <Instagram className='w-7 h-7' />
             </a>
-            <a href="https://line.me/R/ti/p/~@wa2jkl" target='_blank' rel="noopener noreferrer" className='w-10 h-10 flex items-center justify-center rounded-full text-black hover:text-white bg-white hover:bg-black transition'>
+            <a href="https://line.me/R/ti/p/~0819116293" target='_blank' rel="noopener noreferrer" className='w-10 h-10 flex items-center justify-center rounded-full text-black hover:text-white bg-white hover:bg-black transition'>
               <FaLine className='w-7 h-7' />
             </a>
           </div>
