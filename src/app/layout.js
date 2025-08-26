@@ -28,7 +28,7 @@ export const metadata = {
     siteName: "ระบบดับเพลิง Morita Uehara Trading",
     images: [
       {
-        url: "/group-brand.webp", // รูปโลโก้หรือภาพ Hero
+        url: "https://morita-miyata.vercel.app/group-brand.webp?v=2", // รูปโลโก้หรือภาพ Hero
         width: 1200,
         height: 630,
       },
