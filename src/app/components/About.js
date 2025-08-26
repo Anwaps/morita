@@ -5,7 +5,7 @@ export default function About() {
         <section className="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-r from-white to-white text-white px-6">
             {/* Company Title */}
             <h1 className="text-5xl font-bold mb-6 text-black">เกี่ยวกับเรา</h1>
-            <h2 className="text-3xl font-bold mb-6 text-black">ห้างหุ้นส่วนจํากัด <span className="block sm:inline bg-gradient-to-r from-red-700 to-red-500 bg-clip-text text-transparent">อุเอะฮาระเทรดดิ้ง</span></h2>
+            <h2 className="text-3xl font-bold mb-6 text-black">ห้างหุ้นส่วนจํากัด <span className="block sm:inline bg-gradient-to-r from-red-700 to-red-500 bg-clip-text text-transparent">สยามอุเอะฮาระเทรดดิ้ง</span></h2>
             <div className="max-w-2xl mb-6">
                 <Card className="shadow-lg rounded-2xl border border-gray-200 hover:shadow-xl transition">
                     <CardHeader>

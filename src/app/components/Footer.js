@@ -64,7 +64,7 @@ const Footer = memo(() => {
         {/* ติดต่อ */}
         <div>
           <h3 className="font-bold text-lg mb-3">ติดต่อ</h3>
-          <p className="text-sm">ห้างหุ้นส่วนจำกัด อุเอะฮาระเทรดดิ้ง<br />
+          <p className="text-sm">ห้างหุ้นส่วนจำกัด สยามอุเอะฮาระเทรดดิ้ง<br />
             1699/12 ถนนอุดมสรยุทธ์ ตำบลตลองจิก อำเภอบางปะอิน พระนครศรีอยุธยา 13160</p>
           <p className="text-sm mt-2 mb-1">โทร: 081-911-6293</p>
           <p className="text-sm">อีเมล: titirat_uehara@yahoo.co.jp<br />

@@ -43,7 +43,7 @@ export default function Contact() {
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "ห้างหุ้นส่วนจํากัด อุเอะฮาระเทรดดิ้ง",
+        "name": "ห้างหุ้นส่วนจํากัด สยามอุเอะฮาระเทรดดิ้ง",
         "url": "https://morita-miyata.vercel-v2.app/",
         "logo": "https://morita-miyata-v2.vercel.app/group-brand-logo.webp?v=4",
         "contactPoint": {
