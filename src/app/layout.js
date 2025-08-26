@@ -24,11 +24,11 @@ export const metadata = {
   openGraph: {
     title: "ห้างหุ้นส่วนจำกัด อุเอะฮาระเทรดดิ้ง | อุปกรณ์ดับเพลิงเเละระบบดับเพลิงอัตโนมัติ",
     description: "จำหน่ายระบบดับเพลิงและอุปกรณ์ดับเพลิงอัตโนมัติ แบรนด์ Morita Miyata เเละ Statx ครบวงจร ทั้งติดตั้ง บำรุงรักษา และจำหน่ายอุปกรณ์คุณภาพมาตรฐานสากล",
-    url: "https://morita-miyata.vercel.app/", // ใส่โดเมนจริงเมื่อพร้อม
+    url: "https://morita-miyata-v2.vercel.app/", // ใส่โดเมนจริงเมื่อพร้อม
     siteName: "ระบบดับเพลิง Morita Uehara Trading",
     images: [
       {
-        url: "https://morita-miyata.vercel.app/group-brand-logo.webp?v=4", // รูปโลโก้หรือภาพ Hero
+        url: "https://morita-miyata-v2.vercel.app/group-brand-logo.webp?v=4", // รูปโลโก้หรือภาพ Hero
         width: 1200,
         height: 630,
       },

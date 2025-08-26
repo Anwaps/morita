@@ -44,8 +44,8 @@ export default function Contact() {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "ห้างหุ้นส่วนจํากัด อุเอะฮาระเทรดดิ้ง",
-        "url": "https://morita-miyata.vercel.app/",
-        "logo": "https://morita-miyata.vercel.app/group-brand-logo.webp?v=4",
+        "url": "https://morita-miyata.vercel-v2.app/",
+        "logo": "https://morita-miyata-v2.vercel.app/group-brand-logo.webp?v=4",
         "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+66 081-911-6293",
