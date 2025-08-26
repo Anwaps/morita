@@ -41,11 +41,11 @@ export default function Contact() {
 
     // Json-LD schema
     const jsonLd = {
-        "@context": "https://sechema.org",
+        "@context": "https://schema.org",
         "@type": "Organization",
         "name": "ห้างหุ้นส่วนจํากัด อุเอะฮาระเทรดดิ้ง",
         "url": "https://morita-miyata.vercel.app/",
-        "logo": "https://morita-miyata.vercel.app/group-brand.webp",
+        "logo": "https://morita-miyata.vercel.app/group-brand.webp?v=2",
         "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+66 081-911-6293",
