@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://morita-miyata.vercel.app/sitemap.xml
