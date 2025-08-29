@@ -44,8 +44,8 @@ export default function Contact() {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "ห้างหุ้นส่วนจํากัด สยามอุเอะฮาระเทรดดิ้ง",
-        "url": "https://www.siamuehara.com/",
-        "logo": "https://www.siamuehara.com/group-brand-logo.webp?v=4",
+        "url": "https://siamuehara.co.th/",
+        "logo": "https://siamuehara.co.th/group-brand-logo.webp",
         "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+66 081-911-6293",
